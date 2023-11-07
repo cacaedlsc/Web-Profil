@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #3D0C11;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      width: 75%;
+      background-color: #F9DEC9;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column; /* Mengatur tata letak kontainer vertikal */
+      align-items: center;
+    }
+    .container-a {
+      width: 80%;
+      display: flex;
+      flex-direction: row; /* Mengatur tata letak kontainer horizontal */
+      background-color: #F9DEC9;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      align-items: center;
+    }
+    h1 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #c4a793; /* Tambahkan bordir tipis */
+      margin: 0 auto; /* Menggeser tabel ke tengah horizontal */
+    }
+
+    th, td {
+      padding: 5px; /* Mengurangi jarak antara teks dan tepi elemen-elemen ini */
+      text-align: left;
+    }
+    th {
+      background-color: #F4A460;
+    }
+
+    .profile {
+      text-align: center;
+      flex: 1; /* Menyesuaikan lebar foto agar sama dengan tabel */
+    }
+    .profile img {
+      width: 100px;
+      height: auto;
+      margin: 10px;
+    }
+    .profile p {
+      font-size: 18px;
+      margin: 5px 0; /* Mengurangi jarak antara paragraf */
+    }
+
+    .profile-left {
+      flex: 1; /* Menyesuaikan lebar gambar agar sama dengan tabel */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10px 0 0; /* Mengatur jarak di sebelah kiri gambar */
+    }
+
+    /* Menambahkan CSS untuk container baru */
+    .container-new {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Mengatur konten vertikal ke tengah */
+      margin-top: 20px; /* Mengatur jarak antara container baru dan yang sebelumnya */
+    }
+    .container-new-a {
+      width: 135%;
+      display: flex;
+      flex-direction: row; /* Mengatur tata letak kontainer horizontal */
+      background-color: #F9DEC9;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1><b>Biodata Mahasiswa</b></h1>
+  <div class="container-a">
+    <div class="profile-left">
+      <div class="profile">
+        <img src="salsaa.png" alt="Foto Mahasiswa">
+      </div>
+    </div>
+    <table>
+      <tr>
+        <td><b>Nama</b></td>
+        <td>Salsabilla Edlanda Putri</td>
+      </tr>
+      <tr>
+        <td><b>NIM</b></td>
+        <td>22.01.53.0047</td>
+      </tr>
+      <tr>
+        <td><b>Fakultas</b></td>
+        <td>Teknologi Informasi dan Industri</td>
+      </tr>
+      <tr>
+        <td><b>Program Studi</b></td>
+        <td>Teknik Informatika</td>
+      </tr>
+      <tr>
+        <td><b>Program</b></td>
+        <td>REG-REGULER</td>
+      </tr>
+      <tr>
+        <td><b>Tahun Aktif</b></td>
+        <td>2022-Sekarang</td>
+      </tr>
+    </table>
+  </div>
+  <!-- Container baru di bawah -->
+  <div class="container-new">
+    <h1><b>Data Lanjutan</b></h1>
+    <i>Informasi Berdasarkan Data yang Sudah Dimasukkan oleh Mahasiswa</i>
+    <br>
+    
+    <div class="container-new-a">
+        <table>
+            <tr>
+              <td><b>Nama</b></td>
+              <td>Salsabilla Edlanda Putri</td>
+            </tr>
+            <tr>
+              <td><b>Tempat / Tanggal Lahir</b></td>
+              <td>Semarang, 12 Maret 2004</td>
+            </tr>
+            <tr>
+              <td><b>Warna Negara</b></td>
+              <td>WNI</td>
+            </tr>
+            <tr>
+              <td><b>Negara</b></td>
+              <td>Indonesia</td>
+            </tr>
+            <tr>
+              <td><b>Nama Ibu</b></td>
+              <td>M. S. Wulan Suci</td>
+            </tr>
+            <tr>
+              <td><b>No KTP Mahasiswa</b></td>
+              <td>0000000781242635</td>
+            </tr>
+            <tr>
+              <td><b>NISN</b></td>
+              <td>00007774241</td>
+            </tr>
+            <tr>
+                <td><b>Jenis Kelamin</b></td>
+                <td>Wanita</td>
+              </tr>
+              <tr>
+                <td><b>Agama</b></td>
+                <td>Islam</td>
+              </tr>
+              <tr>
+                <td><b>Gol. Darah</b></td>
+                <td>B</td>
+              </tr>
+              <tr>
+                <td><b>Status Sipil</b></td>
+                <td>Belum Menikah</td>
+              </tr>
+              <tr>
+                <td><b>Alamat</b></td>
+                <td>Padangsari Selatan Blok B/97</td>
+              </tr>
+              <tr>
+                <td><b>RT / RW</b></td>
+                <td>04 / 09</td>
+              </tr>
+              <tr>
+                <td><b>Kota</b></td>
+                <td>Kota Semarang</td>
+              </tr>
+              <tr>
+                <td><b>Kode Pos</b></td>
+                <td>55978</td>
+              </tr>
+              <tr>
+                <td><b>Kelurahan</b></td>
+                <td>Padangsari</td>
+              </tr>
+              <tr>
+                <td><b>Kecamatan</b></td>
+                <td>Banyumanik</td>
+              </tr>
+              <tr>
+                <td><b>Propinsi</b></td>
+                <td>Jawa Tengah</td>
+              </tr>
+              <tr>
+                <td><b>Negara</b></td>
+                <td>Indonesia</td>
+              </tr>
+              <tr>
+                <td><b>No Telepon</b></td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td><b>No HP</b></td>
+                <td>085866938562</td>
+              </tr>
+              <tr>
+                <td><b>E-MAIL</b></td>
+                <td>salsa@gmail.com</td>
+                </tr>
+          </table>
+    </div>
+
+    <div class="container-new">
+        <h1><b>Status Berkas</b></h1>
+        <i>Informasi Berdasarkan Data yang Sudah Dimasukkan oleh Mahasiswa</i>
+        <br>
+
+        <div class="container-new-a">
+            <table>
+                <tr>
+                  <td><b>Foto</b></td>
+                  <td><i>Sudah Terkirim</i></td>
+                </tr>
+                <tr>
+                  <td><b>Foto Calon Wisudawan</b></td>
+                  <td><i>Belum Terkirim</i></td>
+                </tr>
+                <tr>
+                  <td><b>Scan KTP/KK</b></td>
+                  <td><i>Sudah Terkirim</i></td>
+                </tr>
+                <tr>
+                  <td><b>Scan Ijazah SMA</b></td>
+                  <td><i>Sudah Terkirim</i></td>
+                </tr>
+                <tr>
+                  <td><b>Scan Ijazah Akhir</b></td>
+                  <td><i>Belum Terkirim</i></td>
+                </tr>
+                <tr>
+                  <td><b>Scan Transkrip Akhir</b></td>
+                  <td><i>Belum Terkirim</i></td>
+                </tr>
+              </table>
+    </div>
+  </div>
+</body>
+</html>
